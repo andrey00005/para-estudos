@@ -1,0 +1,65 @@
+git e github:
+
+parte 1 = conhecendo o git
+
+como funciona o git?
+
+o git é como uma linha do tempo de versões, onde a linha do tempo principal (chamada main) vai carregar varios pontos da história ( versões ) e o legal disso tudo é que se eu precisar voltar em uma versão mais antiga, basta escolher qual ponto da historia quero voltar e la vai estar o codigo
+
+ponto da historia se chama = commit
+linha do tempo se chama = branch
+
+existe também a possibilidade de existir mais de uma linha do tempo, assim como em loki e doutor estranho, uma ramificação da linha principal, pra que? pra desenvolver uma nova funcinoalidade de um app por exemplo, ela é testada na linha alternativa enquanto a principal segue funcionando para os usuários, apos estar pronta a nova funcionalidade desta linha alternativa, pode-se colocar o codigo na linha principal
+
+como começar a usar o git? ele é instalado na paste do projeto, e a partir disso ele pode ser usado pra marcar os pontos na historia
+
+geralmente se usa linhas do tempo alternativas em trabalhos com time, e depois se coloca na linha do tempo principal o projeto ja pronto
+
+
+comandos:
+
+inicia o git ( repositório ) no seu projeto
+git init
+
+verificar alterações de pastas e arquivos no projeto
+git status
+
+adiciona todos os arquivos e pastas modificados, ao stage area
+git add .
+
+cria e descreve um pontto na história
+git commit -m "message here"
+
+histórico de commits do projeto
+git log
+
+
+
+
+
+
+
+
+
+
+assim que eu adiciono um arquivo ou mais de um usando o git add, eu coloco um escaneador em tempo real de qualquer alteração que exista nesse ou nesses arquivos, onde se eu usar um git status na proxima vez apos ter feito alguma alterção, ele vai me apontar que existem alterações, e se eu nao adicionar de novo e fazer um commit, um ponto na historia
+
+esse ponto na historia nao terá as ultimas atualizações que o sistema estava apontando, só será gravado na linha do tempo aquilo que passou pelo git add antes de usar o comando commit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+			21.12.24
+
+
+github é pra linkar o github do meu notebook na nuvem
+
